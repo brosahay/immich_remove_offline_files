@@ -41,6 +41,14 @@ These can be installed using the following command:
 pip install requests halo tabulate tqdm
 ```
 
+Alternatively, if you have cloned the repo and plan to use the folder as a venv
+```bash
+# SETUP VIRTUAL ENVIRONMENT
+python3 -m venv .venv
+# INSTALL THE DEPENDENCIES
+pip install -r requirements.txt
+```
+
 Ensure all dependencies are installed correctly before attempting to run the script.
 
 ### Prepare Configuration
